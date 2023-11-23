@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icon/all.min.css">
+</head>
+<body>
+    <div class="all">
+ <div id="formFill" class="formFill">
+    <form id="form1">
+      <marquee behavior="" direction=""> <h3>FORM VALIDATION</h3></marquee> 
+      
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Name">
+        <small id="nameErr"></small>
+        <br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="text" placeholder="Email">
+        <small id="emailErr"></small>
+        <br><br>
+        <label for="phone">Phone No:</label>
+        <input id="numb" type="tel" placeholder="Phone Number">
+        <small id="phoneErr"></small>
+        <br><br>
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input id="dateOfBirth" type="date" placeholder="Date of Birth">
+        <small id="dateErr"></small>
+        <br><br>
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Password">
+        <small id="passErr"></small>
+        <br><br>
+        <label for="confirm-password" style="font-size: 12px;">Confirm-Password:</label>
+        <input id="confirmPassword" type="password" placeholder="Confirm Password">
+        <small id="conPassErr"></small>
+        <br><br>
+        <button class="reset" type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+ </div>
+ <div id="display" class="display">
+    <h2>ID CARD</h2>
+    <i class="fas fa-user"></i>
+    <br><br>
+    <div class="adjust">
+    <label for="">Name:</label> 
+    <p id="nameDisplay"></p>
+    </div>
+    <br><br>
+    <div class="adjust2">
+    <label for="">Email:</label>
+    <p id="emailDisplay"></p>
+    </div>
+    <br><br>
+    <div class="adjust3">
+    <label for="">Phone No.:</label>
+    <p id="phoneDisplay"></p>
+    </div>
+    <br><br>
+    <div class="adjust4">
+    <label for="">Age:</label>
+    <p id="ageDisplay"></p>
+    </div>
+    <br><br>
+    <button id="print1" class="print" onclick="window.print()">Print</button>
+</div>
+</div>  
+    <script src="script.js"></script>
+</body>
+</html>

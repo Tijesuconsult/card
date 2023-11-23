@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all{
+    border: 1px solid transparent
+    ;
+    max-width: 100%;
+    height: 600px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 20px;
+    background-image: url(cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+label{
+    color: white;
+}
+small{
+    color: red;
+    margin-left: 105px;
+}
+.formFill{
+    border: 1px solid black;
+    width: 350px;
+    margin:50px auto;
+    background-color: rgba(0, 174, 255, 0.205);
+    padding: 10px;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    border-radius: 10px;
+    height: 485px;
+    animation: wave 1s infinite;
+}
+/* @keyframes wave {
+    0% {background-color: red;}
+    20%{background-color: blue;}
+    40%{background-color: aqua;}
+    60%{background-color: goldenrod;}
+    80%{background-color: black;}
+    100%{background-color: coral;}
+} */
+input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+}
+#name{
+    margin-left: 50px;
+}
+#email{
+    margin-left: 53px;
+}
+#numb{
+    margin-left: 23px;
+}
+#password{
+    margin-left: 25px;
+}
+button{
+    padding: 5px 10px;
+    margin-left: 140px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.377);
+    color: white;
+    border: 1px solid transparent;
+    font-weight: 600;
+
+}
+.reset{
+    margin-left: 30px;
+    background-color: rgba(0, 0, 255, 0.438);
+}
+.print{
+    background-color: transparent;
+    color: white;
+    margin-left: 250px;
+    display: none;
+}
+.display{
+    background-color: rgba(184, 135, 11, 0.548);
+    border:  1px solid black;
+    width: 350px;
+    margin:50px auto;
+    padding: 10px 20px;
+    /* position: relative;
+    bottom: 420px; */
+    border-radius: 10px;
+    height: 420px;
+    display: none;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.adjust{
+    display:inline-flex;
+    gap: 5px;
+    line-height: 1.5px;
+    margin-top: 10px;
+}
+.adjust2{
+    display:inline-flex;
+    gap: 5px;
+}
+.adjust3{
+    display:inline-flex;
+    gap: 5px;
+}
+.adjust4{
+    display:inline-flex;
+    gap: 5px;
+}
+p{
+    font-size: 16px;
+    font-weight: 700;
+}
+i{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px 25px;
+}
+#dateOfBirth{
+    margin-left: 5px;
+}
